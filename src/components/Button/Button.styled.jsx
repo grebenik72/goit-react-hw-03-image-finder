@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const WrapperButton = styled.div`
-  text-align: center;
-  margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 `;
 
 export const ButtonStyle = styled.button`

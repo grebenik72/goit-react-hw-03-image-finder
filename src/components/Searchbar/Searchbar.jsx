@@ -1,10 +1,4 @@
-import {
-  SearchForm,
-  SearchFormButton,
-  SearchFormInput,
-  SearchbarStyle,
-} from './Searchbar.styled';
-
+import { SearchForm, SearchFormButton, SearchFormInput, SearchbarStyle } from "./Searchbar.styled";
 
 export const Searchbar = ({ onSubmitSearchBar }) => (
   <SearchbarStyle>
@@ -23,5 +17,4 @@ export const Searchbar = ({ onSubmitSearchBar }) => (
     </SearchForm>
   </SearchbarStyle>
 );
-
 

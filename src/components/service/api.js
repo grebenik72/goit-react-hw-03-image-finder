@@ -2,7 +2,7 @@ import axios from "axios";
 import { paramsForNotify } from "components/App";
 import { Notify } from "notiflix";
 
-const KEY = `38389373-066e0672115b08bfa137732cd`;
+const KEY = "37440122-e5d5a2493910548fa520b3add";
 const URL = "https://pixabay.com/api/";
 
 export async function fetchPhoto(search, page, perPage) {

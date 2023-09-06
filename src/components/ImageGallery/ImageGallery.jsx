@@ -1,5 +1,5 @@
-import { ImageGalleryItem } from 'components/ImageGalleryItem/ImageGalleryItem';
-import { Gallery } from './ImageGallery.styled';
+import { ImageGalleryItem } from "components/ImageGalleryItem/ImageGalleryItem";
+import { Gallery } from "./ImageGallery.styled";
 
 
 export const ImageGallery = ({ photos, onClickImageItem }) => (
@@ -15,5 +15,3 @@ export const ImageGallery = ({ photos, onClickImageItem }) => (
     ))}
   </Gallery>
 );
-
-
